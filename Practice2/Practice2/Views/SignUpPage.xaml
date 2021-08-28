@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practice2.Views.SignUpPage"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Fill" VerticalOptions="Center" Margin="0,0,0,100">
+
+            <Image Source="myImage.png" HorizontalOptions="Center" VerticalOptions="Center" />
+
+            <Entry Text="{Binding Name}"
+                   Placeholder="Name"
+                   PlaceholderColor="DimGray"
+                   BackgroundColor="LightGray"
+                   TextColor="Black"
+                   Margin="10,10,10,10"/>
+
+            <Entry Text="{Binding Email }"
+                   Placeholder="Email"
+                   PlaceholderColor="DimGray"
+                   BackgroundColor="LightGray"
+                   TextColor="Black"
+                   Margin="10,0,10,10"/>
+
+            <Entry Text="{Binding Password}"
+                   Placeholder="Password"
+                   PlaceholderColor="DimGray"
+                   BackgroundColor="LightGray"
+                   IsPassword="True"
+                   TextColor="Black"
+                   Margin="10,10,10,10"/>
+
+            <Entry Text="{Binding ConfirmPassword}"
+                   Placeholder=" Confirm Password"
+                   PlaceholderColor="DimGray"
+                   BackgroundColor="LightGray"
+                   IsPassword="True"
+                   TextColor="Black"
+                   Margin="10,0,10,10"/>
+
+            <Button Text="Login"
+                    Command="{Binding RegistryCommand}"
+                    FontSize="Medium"
+                    Margin="10,0,10,10"
+                    BackgroundColor="SkyBlue"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practice2.Views.HomePage">
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,*,*" ColumnDefinitions="*,*" BackgroundColor="LightGray" Padding="17.5" RowSpacing="15" ColumnSpacing="22">
+            <StackLayout VerticalOptions="Center" Grid.Row="0" Grid.Column="0" BackgroundColor="White">
+                <Image Source="{Binding MenuOption1.Image}" HorizontalOptions="Center"/>
+                <Label Text="{Binding MenuOption1.Title}" HorizontalOptions="Center" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" Grid.Row="0" Grid.Column="1" BackgroundColor="White">
+                <Image Source="{Binding MenuOption2.Image}" HorizontalOptions="Center"/>
+                <Label Text="{Binding MenuOption2.Title}" HorizontalOptions="Center" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" Grid.Row="1" Grid.Column="0" BackgroundColor="White">
+                <Image Source="{Binding MenuOption3.Image}" HorizontalOptions="Center"/>
+                <Label Text="{Binding MenuOption3.Title}" HorizontalOptions="Center" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" Grid.Row="1" Grid.Column="1" BackgroundColor="White">
+                <Image Source="{Binding MenuOption4.Image}" HorizontalOptions="Center"/>
+                <Label Text="{Binding MenuOption4.Title}" HorizontalOptions="Center" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" Grid.Row="2" Grid.Column="0" BackgroundColor="White">
+                <Image Source="{Binding MenuOption5.Image}" HorizontalOptions="Center"/>
+                <Label Text="{Binding MenuOption5.Title}" HorizontalOptions="Center" TextColor="Black"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="Center" Grid.Row="2" Grid.Column="1" BackgroundColor="White">
+                <Image Source="{Binding MenuOption6.Image}" HorizontalOptions="Center"/>
+                <Label Text="{Binding MenuOption6.Title}" HorizontalOptions="Center" TextColor="Black"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
