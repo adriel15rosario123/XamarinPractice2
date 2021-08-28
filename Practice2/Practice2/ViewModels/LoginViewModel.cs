@@ -37,7 +37,7 @@ namespace Practice2.ViewModels
             }
             else
             {
-                await App.Current.MainPage.DisplayAlert("Bienvenido", "Hola " + Email, "Ok");
+                await App.Current.MainPage.DisplayAlert($"Bienvenido", $"Hola {Email}" , "Ok");
             }
         }
 

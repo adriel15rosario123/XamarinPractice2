@@ -6,9 +6,9 @@
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
              android:TabbedPage.ToolbarPlacement="Bottom">
 
-    
-    <local:LoginPage Title="Login"/>
-    <local:HomePage Title="Home"/>
+
+    <local:LoginPage Title="Login" IconImageSource="myImage3.png"/>
+    <local:HomePage Title="Home" IconImageSource="https://cdn.iconscout.com/icon/premium/png-256-thumb/home-2329977-1973796.png"/>
     
 
 </TabbedPage>
